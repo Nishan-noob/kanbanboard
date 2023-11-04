@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.App {
+  height: 100vh;
+  margin-top: 0;
+  width: 100%;
+  overflow: scroll;
+  background-color: rgb(245, 245, 245);
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.items-center {
+  align-items: center;
+}
+.gap-2{
+  gap: 2px;
+  }
+  .mtop-5{
+    margin: 5px 0 0 0;
+  }
+  .flex-column{
+    display: flex;
+    flex-direction: column;
+  }
+  .gap-10{
+    gap: 10px;
+  }
+  .bold{
+    font-weight: 600;
+  }
+  .thin{
+    font-weight: 200;
+  }
+  .margin-left{
+    margin-left: 5px;
+  }

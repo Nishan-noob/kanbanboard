@@ -1,0 +1,20 @@
+.nav {
+  background-color: white;
+  padding: 2vh 0;
+  width: 100%;
+}
+
+#display {
+  padding: 5px 11px 5px 11px;
+  background-color: white;
+  border: none;
+  margin-left: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.15), 2px -2px 5px rgba(0, 0, 0, 0.1);
+}
+.iconAfter {
+  margin-left: 5px;
+}
+.iconBefore {
+  margin-right: 5px;
+}

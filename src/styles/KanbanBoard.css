@@ -1,0 +1,45 @@
+.kanban-board {
+  /* padding-top: 4vh; */
+  display: flex;
+  padding: 0 10px;
+  gap: 20px;
+  overflow: auto;
+  height: 100%;
+  margin: 10px 0 0 0;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important ;
+}
+
+.kanban-board::-webkit-scrollbar {
+  display: none;
+}
+
+
+.priority {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 8px;
+  min-width: 250px;
+  justify-content: space-between;
+}
+img {
+  width: 15px;
+  height: 15px;
+  object-fit: cover;
+  margin: 10px 10px 0px 7px;
+  transform: translateY(-5px);
+}
+.priority-icons{
+  margin: 0px 5px 0 5px;
+}
+.status-icons{
+  transform: scale(0.65) translateY(5px);
+  margin: 0px 5px 0px 0px;
+}
+.user-icons{
+  transform: scale(2);
+}
+.count{
+  margin-left:10px
+}

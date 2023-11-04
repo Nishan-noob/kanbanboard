@@ -1,0 +1,35 @@
+.popup {
+    width: 200px;
+    height: 70px;
+    z-index: 1;
+    padding: 10px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 15px;
+    border-radius: 10px;
+    background-color: rgb(247 , 247, 247);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+  }
+  
+  .row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px; 
+  }
+  #groupSelect{
+    padding: 3px 28px 3px 8px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+    font-size: 14px;
+    border: 1px solid rgba(192, 192, 192, 0.5);
+  }
+  #orderSelect{
+    padding: 3px 28px 3px 8px;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+    font-size: 14px;
+    border: 1px solid rgba(192, 192, 192, 0.5);
+  }
